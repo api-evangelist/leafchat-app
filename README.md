@@ -1,4 +1,4 @@
-# leafchat-app
+# leafchat
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-leafchat-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://leafchat.app/
+leafchat（リーフチャット）は、サイトに設置する AI サポートチャットです。マニュアルや FAQ をアップロードすると、その資料をもとに AI が質問へ答え、答えられなかった質問は担当者が引き継ぎます。Claude や ChatGPT から資料の修正案も作れます。API キーで他の AI エージェントやツールからも接続可能です。
+
+**Areas:** AI · Chatbot · Customer Support · Japanese · SaaS
+
+## leafchat on APIs.io
+
+Everything profiled for leafchat is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/leafchat-app/](https://apis.io/providers/leafchat-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [leafchat Documents API](https://apis.io/apis/leafchat-app/leafchat-app-documents-api/) — 文書と版
+- [leafchat Drafts API](https://apis.io/apis/leafchat-app/leafchat-app-drafts-api/) — ナレッジの変更の提案。人がダッシュボードで差分を見て公開・破棄する（API からは公開できない）
+- [leafchat Folders API](https://apis.io/apis/leafchat-app/leafchat-app-folders-api/) — サイト別の出し分けの単位
+- [leafchat Sources API](https://apis.io/apis/leafchat-app/leafchat-app-sources-api/) — ナレッジの持ち主の単位
+- [leafchat Sync API](https://apis.io/apis/leafchat-app/leafchat-app-sync-api/) — 同期のソースに、置き場所の一式を送ってそろえる。files で送ると、パスの最初の階層がフォルダ、最後がファイル名になる（2 階層まで）。テキスト（md・txt・json）は本文ごと、それ以外（html・csv・pdf・docx・xlsx・pptx）は一覧（SHA-256・大きさ・形式）だけを送り、計画の…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [leafchat Agentic Access](https://apis.io/agentic-access/leafchat-app/leafchat-app-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateDocument](https://apis.io/schemas/leafchat-app/leafchat-app-create-document/)
+- [Document](https://apis.io/schemas/leafchat-app/leafchat-app-document/)
+- [Draft](https://apis.io/schemas/leafchat-app/leafchat-app-draft/)
+- [PatchDocument](https://apis.io/schemas/leafchat-app/leafchat-app-patch-document/)
+- [SyncRequest](https://apis.io/schemas/leafchat-app/leafchat-app-sync-request/)
+- [SyncResponse](https://apis.io/schemas/leafchat-app/leafchat-app-sync-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Leafchat App Context](https://apis.io/jsonld/leafchat-app/leafchat-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [leafchat API Rules](https://apis.io/rules/leafchat-app/leafchat-app-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [leafchat Authentication](https://apis.io/security/leafchat-app/leafchat-app-authentication/)
+- [leafchat Domain Security](https://apis.io/security/leafchat-app/leafchat-app-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://leafchat.app/)
+- [API reference](https://api.leafchat.app/api/v1/docs)
+- [Terms of service](https://leafchat.app/terms)
+- [Privacy policy](https://leafchat.app/privacy)
+
+## API Evangelist rating
+
+**Kin Score 42.2** — developing · rubric 0.28.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 60.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 32.6 |
+| Access clarity | 27.7 |
+
+**Agent readiness 55.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/leafchat-app/](https://apis.io/providers/leafchat-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for leafchat: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/leafchat-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
