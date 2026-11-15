@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-leafchat（リーフチャット）は、サイトに設置する AI サポートチャットです。マニュアルや FAQ をアップロードすると、その資料をもとに AI が質問へ答え、答えられなかった質問は担当者が引き継ぎます。Claude や ChatGPT から資料の修正案も作れます。API キーで他の AI エージェントやツールからも接続可能です。
+Leafchat provides AI‑powered support chat that integrates with Claude, ChatGPT and other models. It lets businesses embed a chat widget, manage knowledge bases, and automate answer drafting. The service offers self‑service plans with no monthly fee, and paid plans covering AI usage costs. Documentation, API reference, terms and privacy policies are publicly available.
 
-**Areas:** AI · Chatbot · Customer Support · Japanese · SaaS
+**Areas:** AI · Chatbot · CustomerSupport · Automation · SaaS
 
 ## leafchat on APIs.io
 
@@ -126,23 +126,24 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://leafchat.app/)
 - [API reference](https://api.leafchat.app/api/v1/docs)
+- [Sign up](https://leafchat.app/sign-up)
 - [Terms of service](https://leafchat.app/terms)
 - [Privacy policy](https://leafchat.app/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 42.2** — developing · rubric 0.28.0 · scored 2026-11-15
+**Kin Score 43.8** — developing · rubric 0.27.0 · scored 2026-11-15
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
+| Discoverability | 66.1 |
 | Contract quality | 60.3 |
 | Contract governance | 79.1 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 32.6 |
-| Access clarity | 27.7 |
+| Developer ergonomics | 25.5 |
+| Access clarity | 34.2 |
 
-**Agent readiness 55.6** — agent-ready (gated down from agent-native)
+**Agent readiness 51.3** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -163,13 +164,13 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dry Run Mode | yes |
 | Delegated Identity | served (partial credit) |
 | Protected Resource Metadata | verified |
-| Dynamic Client Registration | yes |
+| Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 17.3** — AI & Biometrics
+**Regulatory alignment 22.7** — AI & Biometrics
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/leafchat-app/](https://apis.io/providers/leafchat-app/).
 
